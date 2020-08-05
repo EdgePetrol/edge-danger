@@ -12,7 +12,7 @@ Gem::Specification.new do |spec|
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.add_runtime_dependency 'danger', '~> 8.0'
-  spec.add_runtime_dependency 'danger-rcov', '~> 1.0.0'
+  spec.add_runtime_dependency 'danger-rcov'
 
   spec.add_development_dependency 'rspec', '~> 3.2'
 
