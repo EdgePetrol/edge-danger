@@ -3,7 +3,7 @@ PATH
   specs:
     edge-danger (0.1.0)
       danger (~> 8.0)
-      danger-rcov
+      danger-rcov (>= 2.0.0)
 
 GEM
   remote: https://rubygems.org/
@@ -33,7 +33,7 @@ GEM
       terminal-table (~> 1)
     danger-plugin-api (1.0.0)
       danger (> 2.0)
-    danger-rcov (1.0.1)
+    danger-rcov (2.0.1)
       danger-plugin-api (~> 1.0)
     diff-lcs (1.4.4)
     faraday (1.0.1)
@@ -81,7 +81,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  danger-rcov
   edge-danger!
   rake (~> 12.0)
   rspec (~> 3.0)
