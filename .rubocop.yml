@@ -1,0 +1,9 @@
+AllCops:
+  NewCops: enable
+  Exclude:
+    - 'bin/*'
+    - 'spec/spec_helper.rb'
+    - 'Dangerfile'
+    - 'Rakefile'
+Naming/FileName:
+  Enabled: false
