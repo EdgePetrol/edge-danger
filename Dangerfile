@@ -1,4 +1,4 @@
-danger.import_plugin('https://raw.githubusercontent.com/EdgePetrol/danger-rcov/master/lib/rcov/plugin.rb')
+danger.import_plugin('https://raw.githubusercontent.com/EdgePetrol/danger-rcov/debug/lib/rcov/plugin.rb')
 
 fail('Please provide a summary in the PR description') if (github.pr_body || '').length < 5
 
